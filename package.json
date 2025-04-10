@@ -1,0 +1,31 @@
+{
+  "name": "imagefromimage",
+  "version": "2.0.0",
+  "description": "Uploads images to AI platforms, provides prompts, checks for image responses, and updates EXIF data.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "puppeteer",
+    "scraper",
+    "automation",
+    "gemini",
+    "exif",
+    "ai",
+    "image"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "exiftool-vendored": "^29.3.0",
+    "p-limit": "^6.2.0",
+    "puppeteer": "^24.6.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "winston": "^3.17.0",
+    "yargs": "^17.7.2"
+  }
+}
